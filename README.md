@@ -29,9 +29,9 @@ Run the notebook cell by cell
 
 
 
-Architecture, Design Decisions & Future Work
+**Architecture, Design Decisions & Future Work**
 
-Architecture & Design Decisions
+**Architecture & Design Decisions**
 
 Multi-Agent System: The project uses a modular architecture with specialized agents — SQL Agent, RAG Agent, PLOT Agent, Voice Agent, Web Agent, and a Router — each responsible for a different aspect of user queries. This separation ensures scalability and maintainability.
 
@@ -47,13 +47,13 @@ Router & Context Management: Acts as the “brain” to select agents, resolve c
 
 Hybrid AI + Rule-Based Approach: Critical for speed, accuracy, and handling API limits. Structured queries rely on AI generation; common patterns fall back to pre-defined rules.
 
-Other Details & Future Work
+**Other Details & Future Work**
 
 Context-Aware & Persistent Memory: Stores last SQL results, product IDs, category info, and recent query history to support conversational interactions.
 
 Extensibility: New agents or knowledge sources can be added without affecting existing functionality.
 
-Future Improvements:
+**Future Improvements:**
 
 Multi-language support for queries and responses
 
@@ -67,5 +67,5 @@ Fine-tuning domain-specific AI models for more accurate SQL generation using LoR
 
 Enhanced visualizations and interactive dashboards
 
-Summary:
+**Summary:**
 The design emphasizes modularity, reliability, and natural user interaction, balancing AI-generated insights with rule-based fallback. With additional time, the system could evolve into a full-fledged intelligent analytics assistant for e-commerce or other structured + unstructured datasets.
