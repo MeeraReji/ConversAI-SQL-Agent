@@ -5,7 +5,7 @@ How to Run
 
 1️⃣ Download the datasets
 Archive datasets: https://drive.google.com/drive/folders/1JSgeO4nyG8QCO41UVWpg4yq4QBlk4lA_
-Chroma DB datasets: https://drive.google.com/drive/folders/1x9lGVSrZ64G-wtJSJggEif49OfX7-D__
+Chroma DB datasets:https://drive.google.com/drive/folders/1x9lGVSrZ64G-wtJSJggEif49OfX7-D__?usp=drive_link
 
 
 2️⃣ Download the ConversAI-SQL-Agent repository
