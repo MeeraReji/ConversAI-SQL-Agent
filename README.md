@@ -4,7 +4,7 @@
 How to Run
 
 1️⃣ Download the datasets
-Archive datasets: https://drive.google.com/drive/folders/1JSgeO4nyG8QCO41UVWpg4yq4QBlk4lA_
+Archive datasets: https://drive.google.com/drive/folders/1JSgeO4nyG8QCO41UVWpg4yq4QBlk4lA_?usp=drive_link
 Chroma DB datasets:https://drive.google.com/drive/folders/1x9lGVSrZ64G-wtJSJggEif49OfX7-D__?usp=drive_link
 
 
