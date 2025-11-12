@@ -15,18 +15,43 @@ Get finalwithui.ipynb
 
 3️⃣ Running the code
 
-If using Python script (.py):
+**If using Python script (.py)**:
+
 Open finalwithui.py
-Add your API key where indicated in the script
-Run the entire file at onc
-<img width="1098" height="676" alt="image" src="https://github.com/user-attachments/assets/b5797171-3129-41bb-bedc-880ddf1fa9a4" />
+Installations in command line :
+# System dependencies (Linux only; skip if on Windows)
+sudo apt-get install -y portaudio19-dev python3-pyaudio
+**Windows:**  
+  Install PyAudio from pre-built wheel: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio  
+  Then run:  
+  pip install path\to\PyAudio‑<version>.whl
 
-If using Jupyter Notebook (.ipynb):
-Open finalwithui.ipynb
-Add your API key where indicated in the script
+# Python packages
+pip install SpeechRecognition pyaudio
+pip install gradio
+pip install langchain==0.2.16 langchain-community==0.2.16 google-generativeai==0.7.2 chromadb sentence-transformers
+pip install transformers==4.44.2 huggingface-hub==0.23.5 sentence-transformers==2.6.1
+pip install --upgrade pip numpy
+
+Add your google  API key where indicated in the script
+<img width="869" height="609" alt="image" src="https://github.com/user-attachments/assets/554cd349-a0ec-4c5f-bd5c-a6d126496d05" />
+Update your dataset path also as indicated:
+<img width="781" height="200" alt="image" src="https://github.com/user-attachments/assets/c627356a-921e-4066-a23f-3e6d9e4e4d70" />
+<img width="782" height="230" alt="image" src="https://github.com/user-attachments/assets/a64615bd-9052-4f45-a411-c71e010d76e6" />
+Run the script using:
+**python finalwithui.py**
+
+**If using Jupyter Notebook (.ipynb):**
+Open finalwithui.ipynb in google colab
+load the datasets to your drive 
+Add your google API key where indicated in the script
+<img width="966" height="288" alt="image" src="https://github.com/user-attachments/assets/470625c5-debf-4e91-a3f1-b0e263f27f73" />
+Update your dataset path also as indicated:
+<img width="971" height="151" alt="image" src="https://github.com/user-attachments/assets/7d05d3fc-9107-4aa6-b1cf-991985550f94" />
+<img width="886" height="162" alt="image" src="https://github.com/user-attachments/assets/cc928c9e-b221-438f-884e-9cce8f7b5bc9" />
+if needed :
+!pip install gradio
 Run the notebook cell by cell
-
-
 
 
 **Architecture, Design Decisions & Future Work**
