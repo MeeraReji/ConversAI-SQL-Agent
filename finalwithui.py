@@ -7,22 +7,22 @@ Original file is located at
     https://colab.research.google.com/drive/1iZHvXvS7i90xYgh6FosYu1XUxrNmnfEs
 """
 
-!apt-get install -y portaudio19-dev python3-pyaudio
-!pip install SpeechRecognition pyaudio
+# !apt-get install -y portaudio19-dev python3-pyaudio
+# !pip install SpeechRecognition pyaudio
 
-!pip uninstall -y langchain langchain-community langchain-google-genai google-generativeai -q
-!pip install langchain==0.2.16 langchain-community==0.2.16 google-generativeai==0.7.2 chromadb sentence-transformers -q
-!pip install --upgrade pip
-!pip install sentence-transformers
-!pip install transformers
-!pip install numpy --upgrade
+# !pip uninstall -y langchain langchain-community langchain-google-genai google-generativeai -q
+# !pip install langchain==0.2.16 langchain-community==0.2.16 google-generativeai==0.7.2 chromadb sentence-transformers -q
+# !pip install --upgrade pip
+# !pip install sentence-transformers
+# !pip install transformers
+# !pip install numpy --upgrade
 
-!pip install -U pip
-!pip uninstall -y transformers huggingface-hub sentence-transformers
-!pip install transformers==4.44.2 huggingface-hub==0.23.5 sentence-transformers==2.6.1
+# !pip install -U pip
+# !pip uninstall -y transformers huggingface-hub sentence-transformers
+# !pip install transformers==4.44.2 huggingface-hub==0.23.5 sentence-transformers==2.6.1
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
 """🧠 LLM-Powered SQL Generation: Uses Gemini 2.0 Flash to convert plain English questions into optimized SQL queries.
 
