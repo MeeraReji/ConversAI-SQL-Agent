@@ -38,6 +38,7 @@ Add your google  API key where indicated in the script
 Update your dataset path also as indicated:
 <img width="781" height="200" alt="image" src="https://github.com/user-attachments/assets/c627356a-921e-4066-a23f-3e6d9e4e4d70" />
 <img width="782" height="230" alt="image" src="https://github.com/user-attachments/assets/a64615bd-9052-4f45-a411-c71e010d76e6" />
+
 Run the script using:
 **python finalwithui.py**
 
