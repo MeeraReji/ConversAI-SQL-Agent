@@ -123,11 +123,47 @@ Router & Context Management: Acts as the “brain” to select agents, resolve c
 
 Hybrid AI + Rule-Based Approach: Critical for speed, accuracy, and handling API limits. Structured queries rely on AI generation; common patterns fall back to pre-defined rules.
 
+
+**Tech Stack Used:**
+
+**AI & NLP**
+
+1.Gemini 2.0 Flash – LLM for SQL generation and conversational AI.
+
+2.LangChain – Framework for managing language model pipelines.
+
+3.HuggingFace Embeddings – For embedding text and queries.
+
+4.SpeechRecognition – For converting audio input into text.
+
+
+**Data & Storage**
+
+1.SQLite – Lightweight database for storing e-commerce data.
+
+2.ChromaDB – Vector database for semantic search and retrieval.
+
+3.Pandas – Data manipulation and analysis.
+
+4.BAAI/bge-m3 –Embedding model for text and query representation.
+
+**Visualization & UI**
+
+1.Matplotlib – For plotting charts and graphs.
+
+2.Seaborn – For advanced data visualization and styling.
+
+3.Gradio – For creating the interactive web interface.
+
+4.PyDub – For audio processing (e.g., voice input handling).
+
+
 **Other Details & Future Work**
 
 Context-Aware & Persistent Memory: Stores last SQL results, product IDs, category info, and recent query history to support conversational interactions.
 
 Extensibility: New agents or knowledge sources can be added without affecting existing functionality.
+
 
 **Future Improvements:**
 
