@@ -14,6 +14,11 @@ https://drive.google.com/file/d/1GFHXOU07knUGFXMOksIJG40CEA4jg6uk/view?usp=shari
 
 https://youtu.be/ffmUvqMdlZc
 
+**Link to ppt**
+
+https://docs.google.com/presentation/d/1RTihQado4_BkrpBBOqGsAuBICKa0q69s/edit?usp=sharing&ouid=113817878571465034887&rtpof=true&sd=true
+
+
 
 How to Run
 
