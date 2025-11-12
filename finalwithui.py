@@ -64,7 +64,7 @@ from pydub import AudioSegment
 import tempfile
 
 # ==================== CONFIG ====================
-os.environ["GOOGLE_API_KEY"] = ""
+os.environ["GOOGLE_API_KEY"] = ""#ADD YOUR API KEY HERE 
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Set plotting style
@@ -76,7 +76,7 @@ api_calls_made = 0
 MAX_API_CALLS = 180
 
 # ==================== DATABASE ====================
-sqlite_path = "/content/drive/MyDrive/archive/olist_sqlite.db"
+sqlite_path = "/content/drive/MyDrive/archive/olist_sqlite.db"#ADD YOUR SQLITE PATH HERE 
 db = SQLDatabase.from_uri(f"sqlite:///{sqlite_path}")
 
 # ==================== SCHEMA INFO ====================
@@ -109,7 +109,7 @@ Tables and Columns:
 """
 
 # ==================== CHROMADB SETUP ====================
-chroma_path = "/content/drive/MyDrive/chroma_db_download"
+chroma_path = "/content/drive/MyDrive/chroma_db_download"#ADD YOUR CHROMADB PATH HERE 
 embedding_model = HuggingFaceEmbeddings(model_name="BAAI/bge-m3")
 
 vectorstores = {}
