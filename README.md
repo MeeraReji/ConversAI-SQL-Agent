@@ -1,6 +1,19 @@
 # ConversAI-SQL-Agent
 💬 ConversAI: A multi-agent SQL Intelligence System that lets users query e-commerce data using natural language — powered by RAG, ChromaDB, and Gemini
 
+## 🎬 Demo
+
+Check out the demo video of the project here:
+
+**Drive Link**
+
+https://drive.google.com/file/d/1GFHXOU07knUGFXMOksIJG40CEA4jg6uk/view?usp=sharing
+
+
+**YouTube Link:**
+
+https://drive.google.com/file/d/1GFHXOU07knUGFXMOksIJG40CEA4jg6uk/view?usp=sharing
+
 How to Run
 
 1️⃣ Download the datasets
