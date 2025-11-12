@@ -34,8 +34,11 @@ pip install transformers==4.44.2 huggingface-hub==0.23.5 sentence-transformers==
 pip install --upgrade pip numpy
 
 Add your google  API key where indicated in the script
+
 <img width="869" height="609" alt="image" src="https://github.com/user-attachments/assets/554cd349-a0ec-4c5f-bd5c-a6d126496d05" />
+
 Update your dataset path also as indicated:
+
 <img width="781" height="200" alt="image" src="https://github.com/user-attachments/assets/c627356a-921e-4066-a23f-3e6d9e4e4d70" />
 <img width="782" height="230" alt="image" src="https://github.com/user-attachments/assets/a64615bd-9052-4f45-a411-c71e010d76e6" />
 
